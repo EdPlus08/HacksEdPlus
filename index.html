@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Hackeando la Tecnología (EdPlus)</title>
+  <link rel="stylesheet" href="style.css"/>
+  <style>
+    .hero-img {
+      background: url('https://images.unsplash.com/photo-1603791440384-56cd371ee9a7?auto=format&fit=crop&w=1400&q=80') no-repeat center center/cover;
+      height: 300px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+
+    .hero-img h2 {
+      background-color: rgba(0, 0, 0, 0.6);
+      padding: 1rem 2rem;
+      border-radius: 10px;
+      color: #4dd0e1;
+      font-size: 2rem;
+    }
+
+    .bienvenida, .info, .destacados {
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 1rem;
+    }
+
+    .info p {
+      line-height: 1.6;
+      color: #ccc;
+    }
+
+    .cards-inicio {
+      display: grid;
+      gap: 1.5rem;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    }
+
+    .card-simple {
+      background-color: #2a2a3a;
+      padding: 1rem;
+      border-left: 5px solid #4dd0e1;
+      border-radius: 10px;
+      color: #ddd;
+      box-shadow: 0 0 10px #00000055;
+      cursor: pointer;
+      transition: transform 0.3s ease;
+    }
+
+    .card-simple:hover {
+      transform: scale(1.05);
+    }
+
+    .card-simple h4 {
+      margin-top: 0;
+      color: #4dd0e1;
+    }
+
+    .card-simple p {
+      font-size: 0.95rem;
+      color: #ccc;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Hackeando la Tecnología (EdPlus)</h1>
+    <nav>
+      <a href="index.html">Inicio</a>
+      <a href="trucos.html">Trucos</a>
+      <a href="contacto.html">Contacto</a>
+      <a href="privacidad.html">Privacidad</a>
+    </nav>
+  </header>
+
+  <section class="hero-img">
+    <h2>Domina la tecnología con trucos, hacks y herramientas útiles</h2>
+  </section>
+
+  <main>
+    <section class="bienvenida">
+      <h2>Bienvenido a Hackeando la Tecnología (Edplus)</h2>
+      <p>Explora el mundo oculto detrás de tus dispositivos. En este sitio descubrirás trucos poco conocidos, hacks útiles y aplicaciones poderosas que transformarán tu experiencia con teléfonos, computadoras y apps.</p>
+    </section>
+
+    <section class="info">
+      <h2>¿Qué encontrarás aquí?</h2>
+      <p>Desde activar funciones secretas en tu Android hasta convertir tu PC en un WiFi portátil, aquí hay espacio para los curiosos y apasionados de la tecnología. Nos enfocamos en:</p>
+      <ul class="destacados">
+        <li>📱 Trucos para Android y iPhone</li>
+        <li>💻 Hacks para Windows, Mac y Linux</li>
+        <li>📲 Apps útiles para productividad y seguridad</li>
+        <li>🔐 Privacidad, anonimato y navegación segura</li>
+      </ul>
+    </section>
+
+    <section class="destacados">
+      <h2>Algunos de nuestros trucos destacados</h2>
+      <div class="cards-inicio">
+        <div class="card-simple" onclick="window.location.href='trucos.html#godmode'">
+          <h4>💡 God Mode en Windows</h4>
+          <p>Activa un modo oculto para controlar todo desde un solo lugar. ¡Ideal para usuarios avanzados!</p>
+        </div>
+        <div class="card-simple" onclick="window.location.href='trucos.html#camara_seguridad'">
+          <h4>📷 Usa tu celular como cámara de seguridad</h4>
+          <p>Con apps gratuitas puedes transformar tu viejo smartphone en un sistema de vigilancia casero.</p>
+        </div>
+        <div class="card-simple" onclick="window.location.href='trucos.html#modo_desarrollador'">
+          <h4>⚙️ Modo desarrollador en Android</h4>
+          <p>Desbloquea ajustes avanzados y optimiza el rendimiento de tu teléfono fácilmente.</p>
+        </div>
+        <div class="card-simple" onclick="window.location.href='trucos.html#whatsapp_clon'">
+          <h4>🔐 Clona WhatsApp en dos teléfonos</h4>
+          <p>Con herramientas web puedes tener acceso simultáneo desde varios dispositivos. ¡Úsalo con cuidado!</p>
+        </div>
+        <div class="card-simple" onclick="window.location.href='trucos.html#hack_twitter'">
+          <h4>🐦 Hackea tu cuenta de Twitter</h4>
+          <p>Aprende a recuperar tu cuenta de Twitter en caso de hackeo. Sencillos pasos para mejorar la seguridad.</p>
+        </div>
+        <div class="card-simple" onclick="window.location.href='trucos.html#optimiza_mac'">
+          <h4>🍏 Optimiza tu Mac</h4>
+          <p>Trucos para mejorar el rendimiento de tu Mac y hacerlo más rápido que nunca.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2025 Hackeando la Tecnología (Edplus) . Todos los derechos reservados.
+  </footer>
+</body>
+</html>
+

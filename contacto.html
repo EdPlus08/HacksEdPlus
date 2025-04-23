@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contacto - Hackeando la Tecnología</title>
+  <link rel="stylesheet" href="style.css"/>
+  <style>
+    .contacto-header {
+      text-align: center;
+      padding: 2rem 0;
+      background-color: #111118;
+      color: #4dd0e1;
+    }
+
+    .contacto-info {
+      max-width: 800px;
+      margin: 2rem auto;
+      padding: 1rem;
+      background-color: #2a2a3a;
+      border-radius: 10px;
+    }
+
+    .contacto-info h2 {
+      text-align: center;
+      margin-bottom: 1.5rem;
+      color: #fff;
+    }
+
+    .contacto-info p {
+      color: #ccc;
+      font-size: 1rem;
+      line-height: 1.6;
+    }
+
+    .detalle {
+      background-color: #333;
+      padding: 1rem;
+      border-radius: 8px;
+      margin-top: 1rem;
+    }
+
+    .detalle h4 {
+      color: #4dd0e1;
+      margin-bottom: 0.5rem;
+    }
+
+    .detalle p {
+      margin: 0;
+    }
+
+    .formulario {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      margin-top: 2rem;
+    }
+
+    .formulario input, .formulario textarea {
+      padding: 1rem;
+      font-size: 1rem;
+      border-radius: 8px;
+      border: none;
+      background-color: #333;
+      color: #ddd;
+    }
+
+    .formulario button {
+      padding: 1rem;
+      font-size: 1.2rem;
+      background-color: #4dd0e1;
+      border: none;
+      border-radius: 8px;
+      color: #111;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+
+    .formulario button:hover {
+      background-color: #00acc1;
+    }
+
+    footer {
+      text-align: center;
+      background-color: #1f1f2e;
+      padding: 1rem;
+      margin-top: 2rem;
+      color: #ccc;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Hackeando la Tecnología (EdPlus)</h1>
+    <nav>
+      <a href="index.html">Inicio</a>
+      <a href="trucos.html">Trucos</a>
+      <a href="contacto.html">Contacto</a>
+      <a href="privacidad.html">Privacidad</a>
+    </nav>
+  </header>
+
+  <section class="contacto-header">
+    <h2>Contacto</h2>
+    <p>¿Tienes alguna pregunta, sugerencia o quieres hablar sobre un truco? ¡Estamos aquí para ayudarte!</p>
+  </section>
+
+  <section class="contacto-info">
+    <h2>Formas de Contactarnos</h2>
+
+    <div class="detalle">
+      <h4>📧 Correo Electrónico:</h4>
+      <p>Escríbenos a <a href="mailto:serviciosedplus@gmail.com" style="color: #4dd0e1;">serviciosedplus@gmail.com</a></p>
+    </div>
+
+    <div class="detalle">
+      <h4>📞 Whatsapp:</h4>
+      <p><a href="tel:+50761747375" style="color: #4dd0e1;">+507 61747375</a></p>
+    </div>
+
+    <div class="detalle">
+      <h4>🌍 Redes Sociales:</h4>
+      <p><strong>TikTok:</strong> <a href="https://www.tiktok.com/@edplus_" target="_blank" style="color: #4dd0e1;">https://www.tiktok.com/@edplus_</a></p>
+    </div>
+
+    <h2>Formulario de Contacto</h2>
+    <p>También puedes escribirnos directamente desde aquí:</p>
+    
+    <form action="#" class="formulario">
+      <input type="text" name="nombre" placeholder="Tu Nombre" required>
+      <input type="email" name="email" placeholder="Tu Correo Electrónico" required>
+      <textarea name="mensaje" rows="5" placeholder="Escribe tu mensaje aquí..." required></textarea>
+      <button type="submit">Enviar Mensaje</button>
+    </form>
+  </section>
+
+  <footer>
+    &copy; 2025 Hackeando la Tecnología (EdPlus). Todos los derechos reservados.
+  </footer>
+</body>
+</html>
